@@ -1,0 +1,11 @@
+Title: Do not over-think about ‘outliers’, use a student-t distribution instead
+
+Link: https://medium.com/towards-data-science/do-not-over-think-about-outliers-use-a-student-t-distribution-instead-b6c584b91d5c
+
+Traditional statistical models are built on Gaussian distributions. This has an inherent assumption that all data points will cluster around a central mean in a predictable pattern based on the central limit theorem.
+
+Since gaussian distributions are sensitive to extreme observations, and people believe that eliminating extreme observations is the best way to get clearer and cleaner results. Student's t-distribution is a more adaptable vessel to navigate the turbulent seas of real-world data.
+
+Student's t-distribution: https://mathworld.wolfram.com/Studentst-Distribution.html
+
+Student's t-distribution is nothing more than a Gaussian distribution with heavier tails. Hence, it assigns greater probability to events further from the mean.
